@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color(0xff0B1199),
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        appBarTheme: AppBarTheme(iconTheme: IconThemeData(color: Colors.black)),
         fontFamily: 'OpenSans',
       ),
       initialRoute: '/',
