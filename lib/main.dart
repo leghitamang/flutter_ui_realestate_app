@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:realstate_app/screens/filter_screen.dart';
 import 'package:realstate_app/screens/home_screen.dart';
 
 void main() {
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
+        '/filterScreen': (context) => FilterScreen(),
       },
     );
   }

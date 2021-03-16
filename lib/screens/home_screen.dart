@@ -156,16 +156,21 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.only(left: 10),
-                  height: 50,
-                  width: 50,
-                  decoration: BoxDecoration(
-                      color: Color(0xff0B1199),
-                      borderRadius: BorderRadius.circular(10)),
-                  child: Icon(
-                    Icons.filter_list_alt,
-                    color: Color(0xffE0E3EA),
+                InkWell(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/filterScreen');
+                  },
+                  child: Container(
+                    margin: EdgeInsets.only(left: 10),
+                    height: 50,
+                    width: 50,
+                    decoration: BoxDecoration(
+                        color: Color(0xff0B1199),
+                        borderRadius: BorderRadius.circular(10)),
+                    child: Icon(
+                      Icons.filter_list_alt,
+                      color: Color(0xffE0E3EA),
+                    ),
                   ),
                 ),
               ],
