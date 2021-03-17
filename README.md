@@ -1,4 +1,4 @@
-## Real State App (UI)
+## Real Estate App (UI)
 This app is developed under the design from dribbble by Adrian Gancarek.
 
 <img height="480px" src="screenshots/home_screen.jpg">   <img height="480px" src="screenshots/detail_screen.jpg">   <img height="480px" src="screenshots/filter_screen.jpg">
